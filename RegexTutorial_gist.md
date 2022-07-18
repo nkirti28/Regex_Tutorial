@@ -32,13 +32,8 @@ The Shorthand hex uses three (hexadecimal)-digit form to represents a color. The
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -88,10 +83,6 @@ Description: The | indicator (i.e. OR indicator) is a boolean that matches eithe
 Code Snipet: `a-f0-9`
 Description: Character classes only matches one out of several characters defined in the character set. A hyphen can be used inside a character class to define a range of characters More than one range can be used -- as is the case in our code snipet.
 
-### Flags
-
-### Grouping and Capturing
-
 ### Bracket Expressions
 
 Bracket Expression: []
@@ -108,12 +99,6 @@ Code Snipet: `[a-f0-9]{3}`
 Quantifier: {}
 
 Description: Greedy means match the longest possible string. Lazy means match the shortest possible string.
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
